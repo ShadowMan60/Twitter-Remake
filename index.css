@@ -1,0 +1,36 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+    overflow: hidden;
+}
+body{
+    background-color: #662d91;
+}
+
+p{
+    color: #662d91;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+#div_header{
+    display: flex;
+    justify-content: center;
+}
+
+
+#login_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40cm;
+    height: 18cm;
+}
+#login{
+    width: 500px;
+    height: 500px;
+    border-style: solid;
+    border-color: white;
+    background-color: white;
+    border-radius: 10px;
+}
+
