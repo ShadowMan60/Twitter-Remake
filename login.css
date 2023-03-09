@@ -1,103 +1,46 @@
 *{
     font-family: 'Montserrat', sans-serif;
+    font-size: large;
     overflow: hidden;
 }
 
 body{
-    background-color: #662d91;
+    background-color: #4d6dc1;
+    margin: 0;
 }
 
-#div_header{
+.Container{
+    width:100vw;
+    height:100vh ;
+    margin:0;
     display: flex;
     justify-content: center;
-}
 
-img{
-    border-radius: 10px;
 }
-
-p{
-    color: #662d91;
-    font-size: 20px;
-    font-weight: bolder;
-}
-
-#login_container{
+.Right{
+    width:50vw;
+    margin-top:50px;
+    margin-bottom:50px;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
-    margin-top: 50px;
-    width: 100%;
-    height: 100%;
-}
-
-#login{
-    width: 500px;
-    height: 400px;
-    border-style: solid;
-    border-color: white;
     background-color: white;
-    border-radius: 10px;
+    color: #4d6dc1;
+    border-radius: 1vw;
 }
 
-
-.form_img{
+.SignIn{
     display: flex;
-    justify-content: center;
-    width: 500px;
-    height: 80px;
-    margin-top: 10px;
-}
-
-.form_login_container{
-    margin-top: 20px;
-}
-
-input[type=text], input[type=password] {
-    width: 400px;
-    height: 55px;
-    padding: 12px 20px;
-    margin: 8px 0;
-    display: inline-block;
-    box-sizing: border-box;
-    border-radius: 10px;
-    border-style: solid;
-    border-width: 2.5px;
-    border-color: #662d91;
-}
-
-.form_input_name{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-}
-
-.form_input_pw{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-}
-
-.form_button{
-    display: flex;
-    justify-content: center;
+    margin: 15px 0;
+    flex-direction: column;
     align-items: center;
-    width: 100%;
-    height: 100px;
+}
+#A{
+    margin-top: 50px;
+    border-radius: 0.5vw;
 }
 
-button {
-    background-color: #662d91;
-    color: white;
-    padding: 14px 20px;
-    margin: 8px 0;
-    border: none;
-    cursor: pointer;
-    width: 10em;
-    height: 5em;
-    border-radius: 10px;
-}
-
-button:hover {
-    opacity: 0.8;
+.L{
+    border-radius: 0.5vw;
+    border: #4d6dc9 solid;
 }
