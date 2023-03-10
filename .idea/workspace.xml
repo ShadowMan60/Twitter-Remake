@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f0d96a36-80d5-416f-bdee-e2d8617ca0d2" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Voice-logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/addons-video-thumb.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/apple-logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/appleVM-logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/bitnami-xampp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/bitnami-xampp/image1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/bitnami-xampp/image2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/bitnami-xampp/image3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/bitnami-xampp/image4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/bitnami-xampp/image5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/bitnami-xampp/image6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/bitnami-xampp/image7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/blog/download-xampp-vm.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/blog/heartbleed-affected-osx.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/blog/heartbleed-affected.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/blog/heartbleed-fixed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/blog/phpinfo-section-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/blog/phpinfo-section-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/blog/xampp-vm-cakephp-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/blog/xampp-vm-cakephp-10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/blog/xampp-vm-cakephp-11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/blog/xampp-vm-cakephp-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/blog/xampp-vm-cakephp-3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/blog/xampp-vm-cakephp-4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/blog/xampp-vm-cakephp-5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/blog/xampp-vm-cakephp-6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/blog/xampp-vm-cakephp-7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/blog/xampp-vm-cakephp-8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/blog/xampp-vm-cakephp-9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/blog/xampp-vm-general.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/blog/xampp-vm-manager.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/blog/xampp-vm-network.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/blog/xampp-vm-php-finder.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/blog/xampp-vm-php-output.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/blog/xampp-vm-tray.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/blog/xampp-vm-volumes.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/fastly-logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/fastly-logo@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/flags/cn.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/flags/de.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/flags/en.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/flags/es.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/flags/fr.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/flags/hu.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/flags/it.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/flags/jp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/flags/pl.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/flags/pt.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/flags/pt_br.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/flags/ro.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/flags/ru.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/flags/tr.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/flags/ur.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/flags/zh_cn.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/flags/zh_tw.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/middleman.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/pdf-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/screenshots/xampp-linux-start.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/screenshots/xampp-macosx-download-installer.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/screenshots/xampp-macosx-launch-credentials.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/screenshots/xampp-macosx-run-installer.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/screenshots/xampp-macosx-stack-manager-general.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/screenshots/xampp-macosx-stack-manager-network.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/screenshots/xampp-macosx-stack-manager-services.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/screenshots/xampp-macosx-stack-manager-volumes.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/screenshots/xampp-macosx-stack-manager.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/screenshots/xampp-macosx-start.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/screenshots/xampp-macosx-wordpress.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/screenshots/xampp-windows-start.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/social-icons-large.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/social-icons-large@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/social-icons.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/stamps/stamp-173x38.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/stamps/stamp-80x15.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/stamps/stamp-88x31.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/team/beltran-rueda.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/team/daniel-lopez.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/team/kai-seidler.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/team/kay-vogelgesang.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/team/paul-hinz.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/twitter-bird.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/windows-logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/xampp-cloud.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2MljrAQeap4WDCsav3RRa6zq8j5" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/xampp/htdocs/Twitter-Remake&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f0d96a36-80d5-416f-bdee-e2d8617ca0d2" name="Changes" comment="" />
+      <created>1678349258403</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1678349258403</updated>
+      <workItem from="1678349259567" duration="6180000" />
+      <workItem from="1678355737089" duration="73000" />
+      <workItem from="1678355811970" duration="42000" />
+      <workItem from="1678355855178" duration="67000" />
+      <workItem from="1678355923184" duration="127000" />
+      <workItem from="1678356063046" duration="26000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
