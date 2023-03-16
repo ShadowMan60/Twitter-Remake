@@ -1,0 +1,73 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5vh;
+    overflow: hidden;
+    word-wrap: normal;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+#banner {
+    width: 100vw;
+    height: 140px;
+}
+#profile {
+    position: absolute;
+    top: 60px;
+    left: 100px;
+    border-radius: 50%;
+    width: 80px;
+    aspect-ratio: 1;
+}
+#name {
+    position: absolute;
+    top: 100px;
+    left: 190px;
+    background-color: lightgray;
+    border-radius: 5px;
+    padding:0 3px;
+}
+#follow {
+    position: absolute;
+    top: 100px;
+    left: 300px;
+    background-color: lightgray;
+    border-radius: 5px;
+    padding:0 3px;
+}
+#edit {
+    position: absolute;
+    top: 100px;
+    right: 5vw;
+    background-color: lightgray;
+    border-radius: 5px;
+    padding:0 3px;
+}
+#description {
+    position: absolute;
+    top: 160px;
+    left: 5vw;
+    width: 90vw;
+    height: 90px;
+    background-color: lightgray;
+    border-radius: 5px;
+    padding:0 3px;
+}
+#back{
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    background-color: lightgray;
+    border-radius: 5px;
+    padding:0 3px;
+}
+#account{
+    height: 30vw;
+    width: 100vw;
+    border-bottom: black 5px;
+}
+#voices{
+    height: max-content;
+    width: 100vw;
+}
