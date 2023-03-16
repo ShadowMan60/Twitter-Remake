@@ -14,11 +14,11 @@
 <body>
 <div id="container">
     <nav>
-        <img src="images/voice-logo.png" alt="">
+        <img src="images/Voice-logo.png" alt="">
         <ul>
-            <li><a href="index-mn.html">Homepage</a></li>
+            <li><a href="index-mn.php">Homepage</a></li>
             <li><a href="login.html">Login</a></li>
-            <li><a href="index-mn.html">Profiel</a></li>
+            <li><a href="index-mn.php">Profiel</a></li>
         </ul>
     </nav>
 
