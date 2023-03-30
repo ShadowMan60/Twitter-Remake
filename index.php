@@ -19,6 +19,7 @@
             <li><a href="index.php">Homepage</a></li>
             <li><a href="login.html">Login</a></li>
             <li><a href="account.html">Profile</a></li>
+            <li><a href="voice.php">My Voice</a></li>
         </ul>
     </nav>
 
@@ -37,3 +38,32 @@
 </div>
 </body>
 </html>
+
+<?php
+error_reporting(E_ALL);
+ini_set('display_errors', 'On');
+
+$servername = "localhost";
+$username = "root";
+$password = "root";
+
+try {
+    $conn = new PDO("mysql:host=$servername;dbname=voice", $username, $password);
+    // set the PDO error mode to exception
+    $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+    echo "Connected successfully";
+} catch(PDOException $e) {
+    echo "Connection failed: " . $e->getMessage();
+
+}
+
+$x = $conn->prepare("SELECT * FROM voices");
+
+$x->execute();
+$data = $x->fetchAll(PDO::FETCH_ASSOC);
+
+foreach ($data as $voice){
+    echo "<p>" . $voice["username"] . "</p>";
+    echo "<p>" . $voice["txt"] . "</p>";
+    echo "<br>";
+}
