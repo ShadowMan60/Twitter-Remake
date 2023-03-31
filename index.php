@@ -11,7 +11,7 @@ try {
     $conn = new PDO("mysql:host=$servername;dbname=voice", $username, $password);
     // set the PDO error mode to exception
     $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-    echo "Connected successfully";
+//    echo "Connected successfully";
 } catch(PDOException $e) {
     echo "Connection failed: " . $e->getMessage();
 
@@ -44,24 +44,25 @@ try {
     <section id="voices">
         <div id="h1-container">
             <h1>Home</h1>
-            <br>
-            <?php
-            $x = $conn->prepare("SELECT * FROM voices");
+            <div id="v">
+                <br>
+                <?php
+                $x = $conn->prepare("SELECT * FROM voices");
 
-            $x->execute();
-            $data = $x->fetchAll(PDO::FETCH_ASSOC);
+                $x->execute();
+                $data = $x->fetchAll(PDO::FETCH_ASSOC);
 
-            foreach ($data as $voice){
-                echo "<div class='voice'>" . "<p class='user'>" . $voice["username"] . "</p>" . "<p class='txt'>" . $voice["txt"] . "</p>" . "</div>" . "<br>";
-            }
-            ?>
+                foreach ($data as $voice){
+                    echo "<div class='voice'>" . "<p class='user'>" . $voice["username"] . "</p>" . "<p class='txt'>" . $voice["txt"] . "</p>" . "</div>" . "<br>";
+                }
+                ?>
+            </div>
+
         </div>
     </section>
 
     <section id="populair">
-        <div id="populair-div">
-            <h1 id="populair-h1">Populair</h1>
-        </div>
+        <h1 id="populair-h1">Populair</h1>
     </section>
 
 </div>

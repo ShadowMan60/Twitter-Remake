@@ -1,14 +1,9 @@
 *{
     font-family: 'Montserrat', sans-serif;
     font-size: 2.5vh;
-    overflow: hidden;
-    word-wrap: normal;
 }
 
 body{
-    display: flex;
-    justify-content: center;
-    align-items: center;
     background-color: #4d6dc1;
     margin: 0;
 }
@@ -17,12 +12,14 @@ img{
     border-radius: 10px;
 }
 
-.Right{
+.background{
+    position: absolute;
+    left:25vw;
+    top:12vh;
     background-color: white;
     border-radius: 1vw;
     width:50vw;
     height: max-content;
-    margin-top:12vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -53,4 +50,15 @@ img{
 }
 #T{
     margin-bottom: 7vh;
+}
+.home{
+    position: absolute;
+    left:10px;
+    top:10px;
+    text-decoration: none;
+    color: black;
+    border: #0076CE 2px solid;
+    border-radius: 1vh;
+    background-color: white;
+    padding: 0 1vw;
 }

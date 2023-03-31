@@ -13,7 +13,7 @@
 <form method="POST">
     <input type="text" name="username" placeholder="username">
     <input type="text" name="content" placeholder="message">
-    <input type="submit">
+    <input id="submit" type="submit">
 </form>
 </body>
 </html>
