@@ -68,6 +68,21 @@ a:hover{
     border-color: #E0E0E0;
     margin-left: 70px;
 }
+.voice{
+    margin:0 5px;
+    border-radius: 1.5vh;
+    background-color: #e6e0e3;
+    border: #0076CE 2px solid;
+
+}
+.user{
+    margin:0 5px;
+}
+.txt{
+    margin-right:5px;
+    margin-left:5px;
+    margin-top:5px;
+}
 
 #populair{
     width: 400px;

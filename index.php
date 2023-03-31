@@ -1,4 +1,22 @@
 <!doctype html>
+<?php
+error_reporting(E_ALL);
+ini_set('display_errors', 'On');
+
+$servername = "localhost";
+$username = "root";
+$password = "root";
+
+try {
+    $conn = new PDO("mysql:host=$servername;dbname=voice", $username, $password);
+    // set the PDO error mode to exception
+    $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+    echo "Connected successfully";
+} catch(PDOException $e) {
+    echo "Connection failed: " . $e->getMessage();
+
+}
+?>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -26,6 +44,17 @@
     <section id="voices">
         <div id="h1-container">
             <h1>Home</h1>
+            <br>
+            <?php
+            $x = $conn->prepare("SELECT * FROM voices");
+
+            $x->execute();
+            $data = $x->fetchAll(PDO::FETCH_ASSOC);
+
+            foreach ($data as $voice){
+                echo "<div class='voice'>" . "<p class='user'>" . $voice["username"] . "</p>" . "<p class='txt'>" . $voice["txt"] . "</p>" . "</div>" . "<br>";
+            }
+            ?>
         </div>
     </section>
 
@@ -39,31 +68,3 @@
 </body>
 </html>
 
-<?php
-error_reporting(E_ALL);
-ini_set('display_errors', 'On');
-
-$servername = "localhost";
-$username = "root";
-$password = "root";
-
-try {
-    $conn = new PDO("mysql:host=$servername;dbname=voice", $username, $password);
-    // set the PDO error mode to exception
-    $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-    echo "Connected successfully";
-} catch(PDOException $e) {
-    echo "Connection failed: " . $e->getMessage();
-
-}
-
-$x = $conn->prepare("SELECT * FROM voices");
-
-$x->execute();
-$data = $x->fetchAll(PDO::FETCH_ASSOC);
-
-foreach ($data as $voice){
-    echo "<p>" . $voice["username"] . "</p>";
-    echo "<p>" . $voice["txt"] . "</p>";
-    echo "<br>";
-}

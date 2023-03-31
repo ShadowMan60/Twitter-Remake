@@ -1,0 +1,27 @@
+*{
+    font-size: large;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+a{
+    position: absolute;
+    left:10px;
+    top:10px;
+    text-decoration: none;
+    color: black;
+    border: #0076CE 2px solid;
+    border-radius: 1vh;
+    background-color: #e6e0e3;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left:40vw;
+    top:40vh;
+    width: 16vw;
+    gap:20px;
+    height: 16vh;
+    padding: 2vw;
+    background-color: #0076CE;
+}

@@ -1,9 +1,24 @@
-
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="voice.css">
+    <title>Voice</title>
+</head>
+<body>
+<a href="index.php">Home</a>
 <form method="POST">
-    <input type="text" name="username">
-    <input type="text" name="content">
+    <input type="text" name="username" placeholder="username">
+    <input type="text" name="content" placeholder="message">
     <input type="submit">
 </form>
+</body>
+</html>
+
+
 
 <?php
 error_reporting(E_ALL);
@@ -25,7 +40,9 @@ if(isset($_POST["content"])){
     }
 
     $x = $conn->prepare("INSERT INTO voices (txt, username)
-                    VALUES('{$_POST["content"]}', '{$_POST["username"]}')");
-
+                    VALUES(:content, :username)");
+    $x->bindParam(":content", $_POST['content']);
+    $x->bindParam(":username", $_POST['username']);
     $x->execute();
+
 }
